@@ -377,6 +377,11 @@ img {
   padding-bottom: 100px;
 }
 
+.footer-con {
+  display: flex;
+  align-items: baseline;
+}
+
 .logo-container {
   margin-right: 120px;
 }
