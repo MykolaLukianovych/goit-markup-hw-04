@@ -375,7 +375,15 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-container {
+  margin-right: 120px;
 }
 
 .footer-logo .part-logo {
@@ -399,10 +407,6 @@ img {
 .foot-social-media {
   width: 208px;
   height: 80px;
-  margin-left: 120px;
-  position: absolute;
-  top: 100px;
-  left: 540px;
 }
 
 .foot-media-title {
