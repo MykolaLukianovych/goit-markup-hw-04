@@ -273,7 +273,6 @@ img {
 .team-card-info {
   margin: 32px 16px;
   text-align: center;
-  padding: 32px 0;
 }
 
 .title {
@@ -284,6 +283,33 @@ img {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
+
+.card-icons-con {
+  margin-top: 8px;
+}
+
+.icons-con-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.icons-con-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-con-list-link {
+  padding: 12px 12px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
 /* #endregion section 2 */
 /* #region Portfolio */
 .portfolio-list {
@@ -330,6 +356,7 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .footer-logo .part-logo {
@@ -348,5 +375,48 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.foot-social-media {
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+  position: absolute;
+  top: 100px;
+  left: 540px;
+}
+
+.foot-media-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.foot-media-icons-con {
+}
+
+.foot-media-icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.foot-media-icons-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-media-icons-link {
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
 /* #endregion footer */
