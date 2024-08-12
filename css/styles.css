@@ -377,11 +377,6 @@ img {
   padding-bottom: 100px;
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
 .logo-container {
   margin-right: 120px;
 }
@@ -420,6 +415,7 @@ img {
 
 .foot-media-icons-list {
   display: flex;
+  align-items: baseline;
   gap: 16px;
 }
 
